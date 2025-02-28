@@ -28,8 +28,8 @@ require('./sheep_core/config.php');
 
 
     <div class="container">
-        <form action="filtros/criar.php" method="post">
         <div class="linha-produto">
+        <form action="filtros/criar.php" method="post">
             <div class="corpoProduto">
                 <div class="imgProduto">
                     <img src="assets/img/produto-1.jpg" class="produtoMiniatura">
@@ -43,6 +43,52 @@ require('./sheep_core/config.php');
                 </div>
             </div>
             </form>
+
+            <form action="filtros/criar.php" method="post">
+            <div class="corpoProduto">
+                <div class="imgProduto">
+                    <img src="assets/img/produto-2.jpg" class="produtoMiniatura">
+                </div>
+                <div class="titulo">
+                    <p>Curso PHP</p>
+                    <h2>R$ 499</h2>
+                    <input type="hidden" name="id-produto" value="">
+                    <input type="hidden" name="valor" value="">
+                    <button type="submit" class="button" nome="addcarrinho">Adcionar ao carrinho</button>
+                </div>
+            </div>
+            </form>
+
+            <form action="filtros/criar.php" method="post">
+            <div class="corpoProduto">
+                <div class="imgProduto">
+                    <img src="assets/img/produto-3.jpg" class="produtoMiniatura">
+                </div>
+                <div class="titulo">
+                    <p>Curso de HTML 5</p>
+                    <h2>R$ 499</h2>
+                    <input type="hidden" name="id-produto" value="">
+                    <input type="hidden" name="valor" value="">
+                    <button type="submit" class="button" nome="addcarrinho">Adcionar ao carrinho</button>
+                </div>
+            </div>
+            </form>
+
+            <form action="filtros/criar.php" method="post">
+            <div class="corpoProduto">
+                <div class="imgProduto">
+                    <img src="assets/img/produto-4.jpg" class="produtoMiniatura">
+                </div>
+                <div class="titulo">
+                    <p>Curso PHP</p>
+                    <h2>R$ 499</h2>
+                    <input type="hidden" name="id-produto" value="">
+                    <input type="hidden" name="valor" value="">
+                    <button type="submit" class="button" nome="addcarrinho">Adcionar ao carrinho</button>
+                </div>
+            </div>
+            </form>
+
         </div>
     </div>
 
