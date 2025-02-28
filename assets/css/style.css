@@ -27,8 +27,86 @@ body {
   font-size: 30px;
   font-weight: bold;
   color: #fff;
-  
 }
 
 .cart {
+  width: 80px;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  border-radius: 3px;
+  align-items: center;
+  padding: 7px 10px;
+}
+
+.fa-shopping-cart {
+  color: #480082;
+}
+
+.container {
+  display: flex;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.linha-produto {
+  display: grid;
+  width: 60%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.corpoProduto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.imgProduto {
+  width: 100%;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.produtoMiniatura {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.titulo {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 20px;
+  color: red;
+}
+
+.button{
+    background-color: #480082;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    padding: 7px 25px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #8c00ff;
 }
