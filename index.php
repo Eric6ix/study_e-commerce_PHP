@@ -24,7 +24,7 @@ require('./sheep_core/config.php');
     <!-- FIM DO TOPO SITE -->
      <!-- ##################################################################################################### -->
      <!-- ##################################################################################################### -->
-    <!-- CORPO DO SITE -->
+    <!-- Cards -->
 
 
     <div class="container">
@@ -90,6 +90,41 @@ require('./sheep_core/config.php');
             </form>
 
         </div>
+    <!-- FIM dos Cards -->
+    <!-- BARRA LATERAL -->
+     <div class="barra-lateral">
+        <div class="topo-do-carrinho">
+            <p>Meu Carrinho</p>
+            </div>
+
+            <div class="item-carrinho">
+              <div class="line-img">
+                   <img src="assets/img/produto-4.jpg" alt="" class="img-carrinho">
+             </div>
+
+             <p>Curso PHP</p>
+             <h2>R$ 422</h2>
+             <form action="filtros/excluir.php" method="post">
+                 <input type="hidden" name="id-produto" value="">
+                 <button type="submit" class="icon-trash"><i class="fa fa-trash-o"></i></button>
+             </form>
+
+
+            </div>
+
+
+            <div class="item-carrinho-null">Seu carrinho está vazio!</div>
+
+            <div class="footer">
+                <h3>Total</h3>
+                <h2>R$ 444</h2>
+            </div>
+
+
+         </div>
+    <!-- FIM DA BARRA LATERAL -->
+    
+
     </div>
 
     <!-- FIM CORPO DO SITE -->
