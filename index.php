@@ -12,6 +12,15 @@ require('./sheep_core/config.php');
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>T</h1>
+    <!-- TOPO DO SITE -->
+
+<div class="header">
+    <p class="logo">Zenkaistore</p>
+    <div class="cart">
+        <p><i class="fa fa-shopping-cart"></i>0</p>
+    </div>
+</div>
+
+    <!-- FIM DO SITE -->
 </body>
 </html>
